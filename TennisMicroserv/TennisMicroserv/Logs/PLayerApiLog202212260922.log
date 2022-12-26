@@ -1,0 +1,56 @@
+2022-12-26 09:22:13 [Debug] [Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory] [{ Id: 12, Name: "RegisteredModelBinderProviders" }] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-12-26 09:22:13 [Debug] [Microsoft.Extensions.Hosting.Internal.Host] [{ Id: 1, Name: "Starting" }] Hosting starting
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer] [{ Name: "LocatedDevelopmentCertificate" }] Using development certificate: "CN=localhost" (Thumbprint: "1E4C2928AC30C66596B4833F5254FA3EA47CD95F")
+2022-12-26 09:22:14 [Information] [Microsoft.Hosting.Lifetime] [{ Id: 14, Name: "ListeningOnAddress" }] Now listening on: "https://localhost:7091"
+2022-12-26 09:22:14 [Information] [Microsoft.Hosting.Lifetime] [{ Id: 14, Name: "ListeningOnAddress" }] Now listening on: "http://localhost:5140"
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 13, Name: "HostingStartupAssemblyLoaded" }] Loaded hosting startup assembly "TennisMicroserv"
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 13, Name: "HostingStartupAssemblyLoaded" }] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 13, Name: "HostingStartupAssemblyLoaded" }] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-12-26 09:22:14 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2022-12-26 09:22:14 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2022-12-26 09:22:14 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "C:\Users\Gumtrock\source\repos\TennisMicroserv\TennisMicroserv\"
+2022-12-26 09:22:14 [Debug] [Microsoft.Extensions.Hosting.Internal.Host] [{ Id: 2, Name: "Started" }] Hosting started
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Connections] [{ Id: 39, Name: "ConnectionAccepted" }] Connection id ""0HMN7395IGTT4"" accepted.
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Connections] [{ Id: 1, Name: "ConnectionStart" }] Connection id ""0HMN7395IGTT4"" started.
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Connections] [{ Id: 39, Name: "ConnectionAccepted" }] Connection id ""0HMN7395IGTT5"" accepted.
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Connections] [{ Id: 1, Name: "ConnectionStart" }] Connection id ""0HMN7395IGTT5"" started.
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Connections] [{ Id: 39, Name: "ConnectionAccepted" }] Connection id ""0HMN7395IGTT6"" accepted.
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Connections] [{ Id: 1, Name: "ConnectionStart" }] Connection id ""0HMN7395IGTT6"" started.
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] [{ Id: 3, Name: "HttpsConnectionEstablished" }] Connection "0HMN7395IGTT6" established using the following protocol: Tls12
+2022-12-26 09:22:14 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - -
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware] [{ Name: "WildcardDetected" }] Wildcard detected, all requests with hosts will be allowed.
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] [{ Id: 1000, Name: "CandidatesNotFound" }] No candidates found for the request path '"/swagger/index.html"'
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] [{ Id: 2, Name: "MatchFailure" }] Request did not match any endpoints
+2022-12-26 09:22:14 [Debug] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] [{ Id: 1, Name: "SetUpResponseForBrowserRefresh" }] Response markup is scheduled to include browser refresh script injection.
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] [{ Id: 2, Name: "BrowserConfiguredForRefreshes" }] Response markup was updated to include browser refresh script injection.
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - - - 200 - text/html;charset=utf-8 404.8771ms
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2 GET https://localhost:7091/swagger/swagger-ui.css - -
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] [{ Id: 1000, Name: "CandidatesNotFound" }] No candidates found for the request path '"/swagger/swagger-ui.css"'
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] [{ Id: 2, Name: "MatchFailure" }] Request did not match any endpoints
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - -
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 14, Name: "WriteCancelled" }] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - -
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 4.9054ms
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished HTTP/2 GET https://localhost:7091/swagger/swagger-ui.css - - - 0 143632 text/css 43.2308ms
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.5812ms
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2 GET https://localhost:7091/swagger/favicon-16x16.png - -
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] [{ Id: 1000, Name: "CandidatesNotFound" }] No candidates found for the request path '"/swagger/favicon-16x16.png"'
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] [{ Id: 2, Name: "MatchFailure" }] Request did not match any endpoints
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 14, Name: "WriteCancelled" }] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished HTTP/2 GET https://localhost:7091/swagger/favicon-16x16.png - - - 0 665 image/png 1.9008ms
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - -
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] [{ Id: 1000, Name: "CandidatesNotFound" }] No candidates found for the request path '"/swagger/v1/swagger.json"'
+2022-12-26 09:22:15 [Debug] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] [{ Id: 2, Name: "MatchFailure" }] Request did not match any endpoints
+2022-12-26 09:22:15 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.2191ms
